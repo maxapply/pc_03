@@ -1,0 +1,505 @@
+/* banner */
+.banner {
+  width: 100%;
+  text-align: center;
+  margin-top: 136px
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+}
+
+
+.box_01 {
+  width: 100%;
+  margin: 3% 0;
+}
+
+.box_title {
+  width: 75%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.box_title span {
+  display: block;
+  width: 60%;
+  height: 14px;
+}
+
+.box_title span:first-child {
+  background: url(../images/teeth_whitening/tit_01.png)no-repeat center / 100% 100%;
+}
+
+.box_title span:last-child {
+  background: url(../images/teeth_whitening/tit_02.png)no-repeat center / 100% 100%;
+}
+
+.box_title h2 {
+  font-size: 35px;
+  display: block;
+  margin: 2% auto;
+  color: #AE57A4;
+}
+
+/* 你是否和他们一样牙齿变色而难以启“齿” */
+.box_01_list>p,
+.box_03_box>p,
+.box_06_text>p {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 2% 0;
+  color: #333;
+  text-indent: 2em;
+}
+
+.box_01_ul {
+  width: 100%;
+  overflow: hidden;
+  padding: 3% 0;
+}
+
+.box_01_ul li {
+  float: left;
+  display: block;
+  width: 15%;
+  overflow: hidden;
+  margin-right: 6.2%;
+  position: relative;
+  text-align: center;
+}
+
+.box_01_ul li:last-child {
+  margin-right: 0;
+  float: right;
+}
+
+.box_01_ul li img {
+  display: block;
+  width: 100%;
+}
+
+.box_01_ul li p {
+  height: 40px;
+  line-height: 46px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #575757;
+}
+
+.box_01_ul li div {
+  display: block;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  transition: all 400ms ease 0s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.box_01_ul li:hover div {
+  top: 0px;
+  left: 0px;
+}
+
+.zixun {
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.zixun a {
+  font-size: 20px;
+  display: block;
+  float: left;
+  padding: 1% 3%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.zixun a:last-child {
+  float: right;
+  background-color: #ff8800;
+  letter-spacing: 2px;
+}
+
+/* 自我诊断，看看你的牙齿属于以下哪些情况 */
+.box_02,
+.box_04,
+.box_06 {
+  width: 100%;
+  background-color: #EBD3E8;
+  overflow: hidden;
+  padding-bottom: 3%;
+  box-sizing: border-box;
+}
+
+.box_02 .box_title,
+.box_03 .box_title,
+.box_04 .box_title,
+.box_05 .box_title,
+.box_06 .box_title {
+  margin-top: 3%;
+}
+
+.box_02_list_box {
+  padding: 3% 5% 0%;
+  box-sizing: border-box;
+}
+
+.box_02_list_top {
+  width: 100%;
+  height: 115px;
+  background: url(../images/teeth_whitening/box_02_list_top.png)no-repeat center / 100% 100%;
+  padding-left: 5.7%;
+  box-sizing: border-box;
+}
+
+.box_02_list_top li {
+  width: 6.5%;
+  height: 145px;
+  float: left;
+  margin-right: 4.53%;
+  cursor: pointer;
+}
+
+.box_02_list_top li.on {
+  background: url(../images/teeth_whitening/box_02_list_top_selected.png)no-repeat center bottom;
+}
+
+.box_02_list_btm {
+  width: 90%;
+  margin-top: 5%;
+  margin: 5% auto;
+}
+
+
+.box_02_list_btm li {
+  width: 100%;
+  overflow: hidden;
+}
+
+.box_02_list_btm li img {
+  display: block;
+  width: 40%;
+  float: left;
+  border-radius: 20px;
+  margin-top: 2%;
+}
+
+.box_02_list_btm li .text {
+  width: 50%;
+
+}
+
+.box_02_list_btm li .text h2 {
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: bolder;
+}
+
+.box_02_list_btm li .text p {
+  font-size: 18px;
+  line-height: 30px;
+  text-indent: 2em;
+  margin-top: 2%;
+}
+
+/* Beyond纳米蓝光美白 30分钟还您皓此美白 */
+.box_03 {
+  padding-bottom: 3%;
+  box-sizing: border-box;
+}
+
+.box_03_box {
+  overflow: hidden;
+}
+
+.box_03_img {
+  width: 40%;
+  text-align: center;
+  margin: 2% 0;
+}
+
+.box_03_img img {
+  display: block;
+  width: 100%;
+}
+
+.box_03_img.fr img {
+  width: 70%;
+}
+
+/* Beyond纳米蓝光美白 让你牙齿美白如此简单 */
+.box_04_list {
+  overflow: hidden;
+  margin: 3% auto;
+}
+
+.box_04_list li {
+  width: 15%;
+  margin-right: 6%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.box_04_list li:last-child {
+  float: right;
+  margin-right: 0;
+}
+
+.box_04_list li img {
+  display: block;
+  width: 100%;
+}
+
+.box_04_list li p {
+  position: absolute;
+  font-size: 20px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .6);
+  left: 0;
+  bottom: 0;
+}
+
+/* Beyond纳米蓝光美白 不仅是美白，更保护牙釉质 */
+
+
+.box_05_list .box_05_list_fl {
+  width: 35%;
+  overflow: hidden;
+}
+
+.box_05_list .box_05_list_fl li {
+  width: 100%;
+  margin-top: 8%;
+}
+
+.box_05_list .box_05_list_fl li img {
+  display: block;
+  width: 100%;
+}
+
+.box_05_list .box_05_list_fl li h3 {
+  font-size: 25px;
+  line-height: 26px;
+  margin-bottom: 3%;
+  font-weight: bolder;
+}
+
+.box_05_list .box_05_list_fl li p {
+  font-size: 18px;
+  line-height: 25px;
+  text-indent: 2em;
+}
+
+.box_05_list .box_05_list_img {
+  width: 30%;
+  float: left;
+}
+
+.box_05_list .box_05_list_img img {
+  display: block;
+  width: 25%;
+  margin: 20% auto 0%;
+}
+
+/* 优贝用心做好口腔 专业品牌 */
+.box_06_text>p strong {
+  font-size: 25px;
+  color: #ff0000;
+}
+
+.box_06_box {
+  overflow: hidden;
+  margin-top: 2%;
+}
+
+.box_06_box li {
+  width: 20%;
+  text-align: center;
+  float: left;
+  margin-right: 6.5%;
+  background-color: #fff;
+}
+
+.box_06_box li:last-child {
+  margin-right: 0;
+  float: right;
+}
+
+.box_06_box li img {
+  display: block;
+  width: 100%;
+}
+
+.box_06_box li p {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 5% 0;
+  letter-spacing: 2px;
+}
+
+/* 确保美白效果 选择资深医师是关键 */
+.box_07 .box_title {
+  margin: 5% auto 3%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 2% 5%;
+  box-sizing: border-box;
+}
+
+.doctor_swiper .swiper-pagination {
+  position: relative;
+}
+
+.doctor_swiper .swiper-pagination-bullet {
+  width: 30px;
+  height: 10px;
+  border-radius: 0;
+}
+
+.doctor_swiper .swiper-button-prev:after,
+.doctor_swiper .swiper-button-next:after {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+
+.doctor_swiper .swiper-button-prev:hover:after {
+  color: #ff0000 !important;
+}
+
+.doctor_swiper .swiper-button-next:hover:after {
+  color: #ff0000 !important;
+}
+
+.doctor_box {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 5px #D2A2CC;
+  overflow: hidden;
+}
+
+.doctor_box .doctor_box_fl {
+  width: 38%;
+  float: left;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.doctor_box .doctor_box_fl img {
+  display: block;
+  width: 75%;
+  border-radius: 20px;
+}
+
+
+.doctor_box_fr {
+  width: 60%;
+  padding: 2% 5%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.doctor_box_fr h1 {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: bolder;
+  display: inline-block;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2%;
+  box-sizing: border-box;
+  margin-top: 3%;
+
+}
+
+.doctor_box_fr h1 span {
+  font-size: 25px;
+  font-weight: normal;
+  vertical-align: bottom;
+}
+
+.doctor_box_fr h2 {
+  font-size: 23px;
+  line-height: 31px;
+  margin: 5% 0;
+  color: #0066CC;
+}
+
+.doctor_box_fr p {
+  font-size: 20px;
+  line-height: 22px;
+  margin-top: 2%;
+  color: #666;
+}
+
+.doctor_box_fr>span {
+  display: inline-block;
+  padding: 1% 5%;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #004B97;
+  font-weight: 500;
+  margin: 3% 0;
+  color: #004B97;
+}
+
+.doctor_box_fr p:nth-child(7),
+.doctor_box_fr p:nth-child(8) {
+  padding: 1% 2%;
+  line-height: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #004B97;
+  color: #004B97;
+}
+
+.doctor_btn {
+  width: 100%;
+  display: flex;
+  margin-top: 5%;
+}
+
+.doctor_btn a {
+  flex: 1;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 5%;
+  padding: 1% 0;
+  box-sizing: border-box;
+  background-color: #ff8800;
+  text-align: center;
+}
+
+.doctor_btn a:last-child {
+  background-color: #005AB5;
+}

@@ -1,0 +1,609 @@
+/* 轮播图 */
+#banner_swiper.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 136px
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-button-prev:after {
+
+  margin-left: 300px;
+  padding: 10px 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, .3)
+}
+
+.swiper-button-prev:hover:after {
+  color: #ff0000 !important;
+}
+
+.swiper-button-next:after {
+  margin-right: 300px;
+  padding: 10px 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, .3)
+}
+
+.swiper-button-next:hover:after {
+  color: #ff0000 !important;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 10px;
+  border-radius: 0px;
+}
+
+
+
+/* 品牌资讯 */
+.inPpzx .inPl {
+  width: 70%;
+  float: left;
+  position: relative;
+}
+
+.inPpzx .inPl .inTit {
+  position: absolute;
+  left: 0;
+  top: 90px;
+}
+
+.inPpzx .inPl .inTit i {
+  font-size: 45px;
+  font-weight: bold;
+  color: #ddd;
+  display: block;
+  height: 38px;
+  padding-bottom: 10px;
+}
+
+.inPpzx .inPl .inTit h2 {
+  font-size: 30px;
+  color: #c2996d;
+  font-weight: normal;
+}
+
+.inPpzx .inPl .inPlCon {
+  overflow: hidden;
+  height: 520px;
+}
+
+.inPpzx .inPl .inPlCon li {
+  overflow: hidden;
+  height: 532px;
+}
+
+.inPpzx .inPl .inPlCon .inPlCtext {
+  width: 50%;
+  float: left;
+  padding-top: 200px;
+}
+
+.inPpzx .inPl .inPlCon .inPlCtext b {
+  display: block;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.inPpzx .inPl .inPlCon .inPlCtext b::after {
+  display: block;
+  width: 62px;
+  height: 3px;
+  background: #c2996d;
+  content: "";
+  margin-top: 15px;
+}
+
+.inPpzx .inPl .inPlCon .inPlCtext p {
+  padding: 15px 0 30px;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.inPpzx .inPl .inPlCon .inPlCtext a,
+.inPpCon .inhz li:last-child a {
+  display: block;
+  width: 177px;
+  height: 38px;
+  background-color: #ff8800;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.inPpzx .inPl .inPlCon .inPlCimg {
+  width: 46%;
+  height: auto;
+  float: right;
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+.inPpzx .inPl .inPlCon .inPlCimg img {
+  width: 80%;
+}
+
+
+.inPpzx .inPr {
+  width: 30%;
+  float: right;
+  padding-top: 100px;
+}
+
+.inPpzx .inPr .inPrTit {
+  margin-bottom: 25px;
+}
+
+.inPpzx .inPr .inPrTit li {
+  display: inline-block;
+  padding-right: 28px;
+  border-right: 1px solid #ccc;
+  height: 24px;
+  margin-right: 28px;
+  font-size: 20px;
+}
+
+.inPpzx .inPr .inPrTit li.on a {
+  display: block;
+  color: #c2996d;
+  background: url(../images/index/sj.jpg) no-repeat center bottom;
+  border-bottom: 2px solid #c2996d;
+  padding-bottom: 15px;
+}
+
+.inPpzx .inPr .inPrTit li:nth-of-type(2) {
+  border-right: none;
+}
+
+.tempWrap {
+  overflow: hidden;
+  width: 100%;
+}
+
+.inPrCon {
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+.clone {
+  width: 100%;
+}
+
+.inPrCon li {
+  overflow: hidden;
+  font-size: 16px;
+  height: 46px;
+  line-height: 46px;
+}
+
+.inPrCon li i {
+  display: block;
+  width: 72px;
+  text-align: right;
+  color: #bdbdbd;
+  float: right;
+}
+
+/* 服务项目 */
+.inIit {
+  height: 75px;
+  padding-bottom: 50px;
+}
+
+.inIit span {
+  color: #ddd;
+  font-size: 87px;
+  display: inline-block;
+}
+
+.inIit p {
+  display: inline-block;
+  padding-left: 5px;
+  font-size: 24px;
+  color: #787878;
+  text-align: left;
+}
+
+.inIit p b {
+  font-size: 36px;
+  color: #c2996d;
+  display: block;
+}
+
+.inItem_swiper {
+  width: 100%;
+  height: auto;
+}
+
+.inItem_swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #e9e7ec;
+  align-items: center;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+
+.inItem_swiper .swiper-button-prev:after,
+.gallery-top .swiper-button-prev:after {
+  margin-left: 0px;
+}
+
+.inItem_swiper .swiper-button-next:after,
+.gallery-top .swiper-button-next:after {
+  margin-right: 0px;
+
+}
+
+
+
+.swiper-slide h3 {
+  font-size: 22px;
+  color: #9F4D95;
+}
+
+.swiper-slide b {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #999;
+  padding: 10px 0 0;
+  font-weight: lighter;
+}
+
+.swiper-slide a {
+  display: block;
+  width: 158px;
+  height: 40px;
+  margin: 15px auto;
+  color: #fff;
+  background: #9F4D95;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  bottom: 43px;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+/* 齿科品牌中心 */
+.inPp {
+  padding-top: 85px;
+}
+
+.inPp .inPpTop {
+  text-align: center;
+  height: 60px;
+  padding-bottom: 30px;
+}
+
+.inPp .inPpTop li.on {
+  color: #9F4D95;
+  background: url(../images/index/xj2.png) no-repeat center bottom;
+  height: 60px;
+}
+
+.inPp .inPpTop li.on a {
+  color: #9F4D95;
+  font-size: 22px;
+}
+
+.inPp .inPpTop li {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.inPp .inPpTop li a {
+  display: block;
+  padding: 0 35px;
+  background: url(../images/index/xx.jpg) no-repeat right 4px;
+}
+
+.inPp .inPpTop li:last-child a {
+  background: none;
+}
+
+
+.inPpCon {
+  text-align: center;
+}
+
+.inPpCon .inhz {
+  text-align: center;
+  height: 490px;
+  position: relative;
+  margin-top: 16px;
+}
+
+.inPpCon .inhz li {
+  width: 16.6%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.inPpCon .inhz li:last-child {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.inPpCon .inhz li img {
+  min-width: 75%;
+
+}
+
+
+
+
+
+.inPpCon .inhz h3 {
+  font-size: 18px;
+}
+
+
+.inPpOther {
+  position: relative;
+  height: 506px;
+  overflow: hidden;
+}
+
+.inPpOther li {
+  position: absolute;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.inPpOther li.li1 {
+  width: 48.2%;
+  height: 331px;
+  top: 0;
+  left: 0;
+}
+
+.inPpOther li.li1 img {
+  height: 331px;
+}
+
+
+.inPpOther li i {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+
+.inPpOther li.li2 {
+  width: 50%;
+  height: 158px;
+  top: 0;
+  right: 0;
+}
+
+.inPpOther li img {
+  width: 100%;
+  height: 100%;
+  transition: all .4s;
+  -moz-transition: all .4s;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+}
+
+
+.inPpOther li:hover img {
+  transform: scale(1.2);
+}
+
+.inPpOther li.li3 {
+  width: 19.5%;
+  height: 153px;
+  top: 35%;
+  left: 50%;
+}
+
+.inPpOther li.li4 {
+  width: 18%;
+  height: 153px;
+  left: 0;
+  bottom: 0;
+}
+
+.inPpOther li.li5 {
+  width: 28%;
+  height: 153px;
+  left: 20%;
+  bottom: 0;
+}
+
+.inPpOther li.li6 {
+  width: 19.5%;
+  height: 153px;
+  left: 50%;
+  bottom: 0;
+}
+
+.inPpOther li.li7 {
+  width: 28.5%;
+  height: 326px;
+  right: 0;
+  bottom: 0;
+}
+
+
+/* 优贝特邀医师 */
+.inTeam {
+  padding-top: 85px;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.gallery-top {
+  height: 80%;
+  width: 100%;
+}
+
+.gallery-thumbs {
+  height: 10%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.gallery-thumbs .swiper-slide {
+  height: 100%;
+  opacity: 0.4;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.gallery-thumbs .swiper-slide img {
+  border-radius: 50%;
+  border: 1px solid #333;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active img {
+  border: 4px solid #8f1c2a;
+}
+
+.gallery-top .swiper-slide .touxiang {
+  position: absolute;
+  top: 0px;
+  left: .5%;
+  width: 488.39px;
+  height: 392px;
+  border-radius: 20px;
+}
+
+
+
+.gallery-top .swiper-slide .touxiang img {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  vertical-align: top;
+  border-radius: 20px;
+  object-fit: contain;
+  /* margin-left: 10%; */
+}
+
+.gallery-top .swiper-slide .right {
+  width: 680px;
+  height: 392px;
+  background: url(../images/index/doc_ico2.png) no-repeat top left / 100px 100px;
+  font-size: 22px;
+}
+
+.gallery-top .swiper-slide .right .text {
+  width: 463px;
+  margin-left: 127px;
+  color: #353535;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.gallery-top .swiper-slide .right .text h2 {
+
+  margin-bottom: 12px;
+  display: inline-block;
+  font-size: 48px;
+  line-height: 1em;
+  background-image: -webkit-linear-gradient(top, #700909, #1d0202, #030000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gallery-top .swiper-slide .right .text hr {
+  margin: 20px auto 30px;
+  border-top: 2px dashed #333;
+}
+
+.gallery-top .swiper-slide .right .text dt {
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin: 10px auto;
+  background: url(../images/index/doc_li_ico.png) no-repeat left center;
+  padding-left: 35px;
+}
+
+.gallery-top .swiper-slide .bottom {
+  width: 100%;
+  height: 235px;
+  background: #a92636;
+
+}
+
+.gallery-top .swiper-slide .bottom .left {
+  width: 38%;
+  height: 235px;
+  display: flex;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.gallery-top .swiper-slide .bottom .left a {
+  flex: 1;
+  margin: 0 20px;
+  display: block;
+  font-size: 18px;
+  border-radius: 15px;
+
+}
+
+.gallery-top .swiper-slide .bottom .left a:first-child {
+  background-color: #FF8000;
+}
+
+.gallery-top .swiper-slide .bottom .left a:last-child {
+  background-color: #46A3FF;
+}
+
+.gallery-top .swiper-slide .bottom .xiangmu {
+  float: right;
+  width: 44.8%;
+  height: 200px;
+  color: #fff;
+  background: #8f1c2a url(../images/index/shanchang.png) 40px top no-repeat;
+  padding: 35px 60px 0 145px;
+  font-size: 22px;
+  line-height: 42px;
+  text-align: left;
+}

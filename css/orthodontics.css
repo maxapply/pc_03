@@ -1,0 +1,541 @@
+/* banner */
+.banner {
+  width: 100%;
+  text-align: center;
+  margin-top: 136px
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+}
+
+/* 牙齿不整齐 一笑毁所有 */
+.sec_title {
+  margin: 5% 0;
+}
+
+.sec_title h3 {
+  display: inline-block;
+  font-size: 35px;
+  color: #C07AB8;
+  border-bottom: 2px solid #004B97;
+  padding-bottom: 1%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.sec_title h3:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border: 10px solid;
+  border-color: transparent transparent #004B97;
+}
+
+.sec_title h3 span {
+  font-size: 38px;
+  font-weight: bolder;
+  color: #004B97;
+  padding-bottom: 2%;
+  box-sizing: border-box;
+}
+
+.box1_list {
+  width: 100%;
+  overflow: hidden;
+}
+
+.box1_list li {
+  float: left;
+  width: 25%;
+  padding: 0% 5% 2%;
+  box-sizing: border-box;
+
+}
+
+.box1_list li img {
+  width: auto\9;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -webkit-touch-callout: none;
+}
+
+.box_btn {
+  margin-top: 3%;
+}
+
+.box_btn a {
+  display: inline-block;
+  font-size: 25px;
+  padding: .8% 5%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bolder;
+  background-color: #ff8800;
+}
+
+.box_btn a i {
+  color: #5A5AAD;
+  border-bottom: 4px solid #5A5AAD;
+  margin-left: 20px;
+
+}
+
+.box_btn a span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  background: url(../images/right_arrow.png)no-repeat center / 100% 100%;
+  margin-left: 20px;
+}
+
+.btn_animate {
+  -webkit-animation-name: "mymove";
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+  transform: translateX(0px);
+}
+
+@keyframes mymove {
+  0% {
+    -webkit-transform: translateX(-27px);
+    -moz-transform: translateX(-27px);
+    -ms-transform: translateX(-27px);
+    -o-transform: translateX(-27px);
+    transform: translateX(-27px);
+  }
+
+  100% {
+    -webkit-transform: translateX(27px);
+    -moz-transform: translateX(27px);
+    -ms-transform: translateX(27px);
+    -o-transform: translateX(27px);
+    transform: translateX(27px);
+  }
+}
+
+
+
+
+
+
+/* 看脸的时代一口歪牙让你危机四伏 */
+.box2 {
+  width: 100%;
+  text-align: center;
+}
+
+.box2 .sec_title,
+.box3 .sec_title {
+  margin-bottom: 3%;
+}
+
+.box2 img {
+  display: block;
+  width: 100%;
+}
+
+
+/* 多种矫正方案供你选择 */
+.box3 p {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0% 5% 2%;
+  box-sizing: border-box;
+  text-indent: 2em;
+  text-align: left;
+}
+
+.box3_btn {
+  padding: 2% 0;
+  position: relative;
+}
+
+.box3_btn .btnItem {
+  display: inline-block;
+  width: 148px;
+  height: 148px;
+  margin: 0 120px;
+  position: relative;
+  z-index: 2;
+  transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  cursor: pointer;
+  background: url(../images/orthodontics/box3_btn.png);
+  line-height: 148px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.box3_btn .btnItem.active,
+.box3_btn .btnItem:hover {
+  background: url(../images/orthodontics/box3_btn_selected.png);
+  color: #fff;
+}
+
+.box3_btn .bg_line {
+  width: 100%;
+  height: 2px;
+  display: inline-block;
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 0;
+  background: #979797;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.box3_list {
+  width: 100%;
+  overflow: hidden;
+}
+
+.pull-left,
+.pull-right {
+  width: 50%;
+  text-align: center;
+}
+
+.pull-left img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+
+.pull-right .tit {
+  position: relative;
+  width: 50%;
+}
+
+.pull-right img {
+  max-width: 1180px;
+}
+
+.pull-right .tit span {
+  position: absolute;
+  top: 46%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  font-size: 22px;
+  color: #fff;
+}
+
+.pull-right .textItem {
+  position: relative;
+  padding-left: 15%;
+  box-sizing: border-box;
+  font-size: 18px;
+  margin: 5% 0;
+  text-align: left;
+}
+
+
+.pull-right .textItem span {
+  width: 20px;
+  height: 20px;
+  background: #979797;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 8%;
+}
+
+.pull-right .iconBox {
+  color: #979797;
+  overflow: hidden;
+}
+
+.pull-right .iconBox .iconItem {
+  width: 25%;
+  text-align: center;
+  float: left;
+  font-size: 18px;
+}
+
+.pull-right .iconBox .iconItem img {
+  display: block;
+  margin: 0 auto;
+}
+
+.pull-right .infoBtnBox {
+  padding: 2%;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  margin: 5% 0;
+}
+
+.openShangQiao {
+  cursor: pointer;
+  background-color: #CE0000;
+}
+
+.openShangQiao span {
+  display: inline-block;
+  padding: 0% 5%;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+/* 优贝牙齿矫正过程 */
+.box4 img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+/* 优贝牙齿正畸医生 */
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 2% 5%;
+  box-sizing: border-box;
+}
+
+.doctor_swiper .swiper-pagination {
+  position: relative;
+
+}
+
+.doctor_swiper .swiper-pagination-bullet {
+  width: 30px;
+  height: 10px;
+  border-radius: 0;
+}
+
+.doctor_swiper .swiper-button-prev:after,
+.doctor_swiper .swiper-button-next:after {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+
+.doctor_swiper .swiper-button-prev:hover:after {
+  color: #ff0000 !important;
+}
+
+.doctor_swiper .swiper-button-next:hover:after {
+  color: #ff0000 !important;
+}
+
+
+
+.doctor_box {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 5px #D2A2CC;
+  overflow: hidden;
+}
+
+.doctor_box .doctor_box_fl {
+  width: 38%;
+  float: left;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+.doctor_box .doctor_box_fl img {
+  display: block;
+  width: 75%;
+  border-radius: 20px;
+}
+
+
+.doctor_box_fr {
+  width: 60%;
+  padding: 2% 5%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.doctor_box_fr h1 {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: bolder;
+  display: inline-block;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2%;
+  box-sizing: border-box;
+  margin-top: 3%;
+
+}
+
+.doctor_box_fr h1 span {
+  font-size: 25px;
+  font-weight: normal;
+  vertical-align: bottom;
+}
+
+.doctor_box_fr h2 {
+  font-size: 23px;
+  line-height: 31px;
+  margin: 5% 0;
+  color: #0066CC;
+}
+
+.doctor_box_fr p {
+  font-size: 20px;
+  line-height: 22px;
+  margin-top: 2%;
+  color: #666;
+}
+
+.doctor_box_fr>span {
+  display: inline-block;
+  padding: 1% 5%;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #004B97;
+  font-weight: 500;
+  margin: 3% 0;
+  color: #004B97;
+}
+
+.doctor_box_fr p:nth-child(7) {
+  padding: 1% 2%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #004B97;
+  color: #004B97;
+}
+
+.doctor_btn {
+  width: 100%;
+  display: flex;
+  margin-top: 5%;
+}
+
+.doctor_btn a {
+  flex: 1;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 5%;
+  padding: 1% 0;
+  box-sizing: border-box;
+  background-color: #ff8800;
+  text-align: center;
+}
+
+.doctor_btn a:last-child {
+  background-color: #005AB5;
+}
+
+
+/* 更多网友关注 */
+.box7 {
+  width: 100%;
+  height: 500px;
+  background: url(../images/orthodontics/problem.jpg)no-repeat center /100% 100%;
+  overflow: hidden;
+  margin-top: 1%;
+}
+
+
+
+.box_tit {
+  margin: 2% 0;
+}
+
+.box_tit h3 {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #005AB5;
+  letter-spacing: 2px;
+}
+
+
+.box6_box {
+  width: 1000px;
+  min-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.box6_box li {
+  width: 45%;
+  float: left;
+  margin: 0 auto 2%;
+  background-color: #fff;
+  padding: 1% 2%;
+  box-sizing: border-box;
+
+}
+
+.box6_box li:nth-child(2n) {
+  float: right;
+}
+
+.box6_box li a h1 {
+  font-size: 22px;
+  line-height: 28px;
+  color: #000;
+
+}
+
+.box6_box li h1 span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url(../images/orthodontics/problem_list.png)no-repeat center /100% 100%;
+  vertical-align: middle;
+  margin-right: 2%;
+  margin-top: -1%;
+}
+
+
+.box6_box li p {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 2%;
+}
+
+.box6_box li p a {
+  color: #ff0000;
+}

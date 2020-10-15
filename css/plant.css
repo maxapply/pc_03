@@ -1,0 +1,568 @@
+/* banner */
+.banner {
+  width: 100%;
+  text-align: center;
+  margin-top: 136px
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+}
+
+/* 您知道吗？ */
+.know {
+  height: auto;
+  padding: 2% 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.know_img {
+  width: 20%;
+  height: auto;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.know_img img {
+  display: block;
+  width: 100%;
+}
+
+.know_text {
+  width: 60%;
+  margin-right: 5%;
+}
+
+.know_text_box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.know_text_box h2 {
+  font-size: 36px;
+  color: #B766AD;
+  line-height: 42px;
+  font-weight: 600;
+}
+
+.know_text_boxs {
+  background: #0573de;
+  height: auto;
+  float: left;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.know_text_boxs p {
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 38px;
+  font-weight: 600;
+}
+
+.know_text_wzbox {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 10% auto;
+}
+
+.know_text_wzbox p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 28px;
+}
+
+.know_list {
+  width: 100%;
+  display: flex;
+}
+
+.know_list li {
+  flex: 1;
+  text-align: center;
+  margin: 2% 5%;
+}
+
+
+.know_list li img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* 细数牙齿缺失7宗罪 */
+.defect {
+  width: 100%;
+  height: 686px;
+  background: url(../images/plant/defect_01.jpg)no-repeat center /100% 100%;
+  overflow: hidden;
+}
+
+.defect_box {
+  background: #FFFFFF;
+  width: 60%;
+  height: 482px;
+  overflow: hidden;
+  margin: 5.5% auto;
+  -moz-box-shadow: 2px 2px 5px #999999;
+  -webkit-box-shadow: 2px 2px 5px #999999;
+  box-shadow: 2px 2px 5px #999999;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.defect_box_fl {
+  width: 55%;
+  height: auto;
+}
+
+.defect_box_fl h2 {
+  font-size: 36px;
+  color: #B766AD;
+  line-height: 42px;
+  margin-top: 2%;
+
+}
+
+.defect_box_fl h2 span {
+  font-size: 42px;
+  color: #000000;
+  line-height: 42px;
+  font-weight: 600;
+}
+
+.defect_box_list {
+  width: 100%;
+  margin-top: 5%;
+  overflow: hidden;
+}
+
+.defect_box_list li {
+  width: 40%;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ff8800;
+  color: #fff;
+  text-align: center;
+  float: left;
+  margin-top: 5%;
+  letter-spacing: 2px;
+}
+
+.defect_box_list li:nth-child(2n) {
+  float: right;
+}
+
+.defect_box_list li span {
+  display: inline-block;
+  width: 12%;
+  height: 60%;
+  background: url(../images/plant/sign.png)no-repeat center / 100% 100%;
+  vertical-align: middle;
+  margin-right: 5%;
+  margin-top: -2%;
+}
+
+.defect_box_fl P {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #999999;
+  margin-top: 10%;
+}
+
+
+
+.defect_box_fr {
+  width: 30%;
+  height: auto;
+  text-align: center;
+}
+
+.defect_box_fr img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* 牙齿缺失怎么办？ */
+.missing_teeth {
+  padding: 2% 0 0;
+  box-sizing: border-box;
+}
+
+
+.missing_teeth>.title,
+.contrast>.title,
+.choice>.title,
+.reject_risk>.title,
+.brand .title,
+.new_teethnd .title {
+  margin: 5% auto;
+}
+
+
+
+.missing_teeth .title h3,
+.contrast>.title h3,
+.choice>.title h3,
+.reject_risk>.title h3,
+.brand .title h3,
+.new_teethnd .title h3 {
+  font-size: 36px;
+  color: #B766AD;
+  line-height: 42px;
+  font-weight: bolder;
+}
+
+.missing_teeth_box {
+  width: 100%;
+  display: flex;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+
+
+.missing_teeth_box li {
+  flex: 1;
+  height: 500px;
+  background-color: #C07AB8;
+  margin-top: 25px;
+  padding: 5% 7%;
+  box-sizing: border-box;
+}
+
+.missing_teeth_box li:nth-child(2) {
+  height: 550px;
+  margin-top: 0;
+  background-color: #A6A6D2;
+}
+
+.missing_teeth_box li img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.missing_teeth_box li h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+  margin: 5% 0;
+}
+
+
+.missing_teeth_box li p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
+}
+
+.missing_teeth_box li:hover img {
+  animation: rotate 1s linear;
+  -webkit-animation: rotate 1s linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotateY(180deg);
+  }
+
+  to {
+    -webkit-transform: rotateY(0deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotateY(180deg);
+  }
+
+  to {
+    -webkit-transform: rotateY(0deg);
+  }
+}
+
+/* 对比 */
+.contrast .title,
+.choice .title,
+.reject_risk .title,
+.brand .title,
+.new_teethnd .title {
+  margin-bottom: 4%;
+}
+
+
+
+.contrast {
+  height: auto;
+  overflow: hidden;
+}
+
+.contrast_box {
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid #999;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 4px 5px #666;
+  background: url(../images/plant/contrast_box_bgc.png)no-repeat center / 100% 100%;
+
+}
+
+.contrast_box_top {
+  width: 100%;
+  height: 80px;
+  border-bottom: 2px solid #666;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #84C1FF;
+}
+
+.contrast_box_top li {
+  flex: 1;
+  height: 80px;
+  line-height: 80px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  border-right: 2px solid #666;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.contrast_box_top li:last-child {
+  border-right: 0;
+}
+
+.contrast_box_con {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #666;
+  box-sizing: border-box;
+  display: flex;
+
+}
+
+.contrast_box_con li {
+  flex: 1;
+  color: #3C3C3C;
+  line-height: 25px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: left;
+  border-right: 2px solid #666;
+  padding: 2%;
+  box-sizing: border-box;
+  position: relative;
+
+}
+
+.contrast_box_con li:first-child span {
+  font-size: 25px;
+  color: #ff8800;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.contrast_box_con li:last-child {
+  border-right: 0;
+}
+
+.contrast_box .contrast_box_con:last-child {
+  border-bottom: 0px;
+}
+
+
+.contrast_box_con li p {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contrast_box_con li b {
+  display: block;
+  text-align: center;
+}
+
+/* 选择种植牙的7大理由 */
+.choice_box {
+  display: flex;
+}
+
+
+.choice_box li {
+  flex: 1;
+  margin: 0 3%;
+  font-size: 18px;
+  background-color: #3C3C3C;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px #444;
+}
+
+.choice_box li img {
+  display: block;
+  width: 100%;
+}
+
+
+.choice_box li h2 {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  margin: 5% 0%;
+  color: #fff;
+}
+
+.choice_box li p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 23px;
+  padding: 0% 10% 5%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* 全球4大种植体品牌 种植效果有保障 */
+.brand_box {
+  display: flex;
+}
+
+.brand_box li {
+  flex: 1;
+  margin: 0 2%;
+}
+
+.brand_box li img {
+  display: block;
+  width: 100%;
+}
+
+.brand_box li p:nth-child(2) {
+  color: #FFFFFF;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #a3a3a3;
+}
+
+.brand_box li p:last-child {
+  font-size: 16px;
+  color: #0e0e0e;
+  width: 100%;
+  margin: 10% auto 0;
+  line-height: 26px;
+}
+
+.brand_box li p:last-child a {
+  color: #f00;
+}
+
+/* 优贝种植牙体系5大种植步骤 立刻长新牙 */
+
+
+.new_teethnd_list {
+  display: flex;
+}
+
+.new_teethnd_list li {
+  flex: 1;
+  text-align: center;
+}
+
+.new_teethnd_list li p {
+  font-size: 18px;
+  margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 优贝口腔医院 拒绝种植风险 */
+.reject_risk_box {
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+
+.reject_risk_box .reject_risk_box_list {
+  width: 20%;
+  height: 200px;
+  float: left;
+  background-color: #84C1FF;
+}
+
+.reject_risk_box .reject_risk_box_list:hover {
+  background-color: #ff8800;
+}
+
+.reject_risk_box .reject_risk_box_list img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.reject_risk_box_list h2 {
+  font-size: 18px;
+  line-height: 25px;
+  position: relative;
+  color: #fff;
+  margin: 15% 0 5% 15%;
+  font-weight: bolder;
+
+}
+
+.reject_risk_box_list h2:before {
+  position: absolute;
+  content: '';
+  left: -8%;
+  width: 2%;
+  height: 25px;
+  background-color: #fff;
+}
+
+.reject_risk_box_list p {
+  font-size: 16px;
+  padding: 5% 8%;
+  box-sizing: border-box;
+  color: #fff;
+}

@@ -1,0 +1,690 @@
+/* banner */
+.banner {
+  width: 100%;
+  text-align: center;
+  margin-top: 136px
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+}
+
+/* 口腔健康服务 */
+.inIit {
+  padding: 2% 0;
+}
+
+.inIit span {
+  color: #ddd;
+  font-size: 87px;
+  display: inline-block;
+}
+
+.inIit p {
+  display: inline-block;
+  padding-left: 5px;
+  font-size: 24px;
+  color: #787878;
+  text-align: left;
+}
+
+.inIit p b {
+  font-size: 36px;
+  color: #c2996d;
+  display: block;
+}
+
+.service {
+  width: 100%;
+  height: auto;
+}
+
+.slide {
+  width: 100%;
+  overflow: hidden;
+  padding: 2% 0;
+  box-sizing: border-box;
+}
+
+.slide .hd {
+  line-height: 30px;
+  float: left;
+  width: 18%;
+  text-align: center;
+  background: #fff;
+}
+
+.slide .hd ul li {
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  overflow: hidden;
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  padding: 17.2% 0;
+  box-sizing: border-box;
+  background-color: #333;
+}
+
+.slide .hd ul li:last-child {
+  border-bottom: 0px;
+}
+
+.slide .hd ul li.on {
+  background-color: #ec6c1b;
+  color: #fff;
+}
+
+.slide .hd ul li span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background: url(../images/customized/ttu_001.png) no-repeat center /100% 100%;
+}
+
+.slide .hd ul li:nth-child(2) span {
+  background: url(../images/customized/ttu_002.png) no-repeat center /100% 100%;
+}
+
+.slide .hd ul li:nth-child(3) span {
+  background: url(../images/customized/ttu_003.png) no-repeat center /100% 100%;
+}
+
+.slide .hd ul li:nth-child(4) span {
+  background: url(../images/customized/ttu_004.png) no-repeat center /100% 100%;
+}
+
+.slide .bd {
+  float: right;
+  width: 60%;
+  background: #fff;
+  overflow: hidden;
+  padding: 2%;
+  box-sizing: border-box;
+  margin-right: 10%;
+  padding-bottom: 0;
+  box-shadow: 0px 0px 10px #333;
+}
+
+.slide .bd img {
+  border-radius: 20px;
+}
+
+.slide .bd img:first-child {
+  display: block;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.slide .bd img:nth-child(2) {
+  width: 55%;
+  float: left;
+}
+
+.slide .bd img:nth-child(3) {
+  width: 42.5%;
+  float: right;
+}
+
+.slide .bd .introduce {
+  width: 100%;
+  display: flex;
+}
+
+.slide .bd .introduce p {
+  flex: 1;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 1.5% 0;
+  text-align: center;
+}
+
+.slide .bd .introduce p span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #66B3FF;
+  border-radius: 50%;
+  vertical-align: middle;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.service_box {
+  overflow: hidden;
+}
+
+.service_boxfl,
+.service_boxfr {
+  width: 50%;
+  height: 521px;
+  position: relative;
+}
+
+.service_boxfl:hover .mask,
+.service_boxfr:hover .mask {
+  display: none;
+}
+
+
+.service_boxfl img,
+.service_boxfr img {
+  display: block;
+  width: 100%;
+}
+
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 521px;
+  background: rgba(0, 0, 0, 5);
+  opacity: 0.7;
+}
+
+.masktitle {
+  width: 380px;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  margin-left: 70px;
+  margin-top: 283px;
+}
+
+.masktitle h3 {
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 36px;
+}
+
+.maskzxyy {
+  width: 380px;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.maskzxyy p {
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 24px;
+}
+
+/* 优贝诊疗 */
+.standard_box {
+  width: 100%;
+  display: flex;
+}
+
+.standard_box li {
+  flex: 1;
+  overflow: hidden;
+  margin: 0 1%;
+  background-color: #333;
+  text-align: center;
+
+}
+
+.standard_box li:hover img {
+  transform: scale(1.2);
+}
+
+.standard_box li:last-child,
+.standard_box li:first-child {
+  margin: 0;
+}
+
+.standard_box li .standard_box_img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.standard_box li .standard_box_img img {
+  display: block;
+  width: 100%;
+  transition: all .4s;
+  -moz-transition: all .4s;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+}
+
+.standard_box_text {
+  width: 70%;
+  margin: 5% auto;
+  color: #fff;
+}
+
+.standard_box_text h2 {
+  font-size: 20px;
+  line-height: 26px;
+
+}
+
+.standard_box_text p {
+  font-size: 16px;
+  line-height: 24px;
+  text-indent: 2em;
+  margin-top: 5%;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 牙齿常见问题 */
+.problem .list {
+  overflow: hidden;
+}
+
+.problem .list li {
+  width: 18%;
+  height: 200px;
+  background-color: #C07AB8;
+  float: left;
+  margin-right: 2.5%;
+  margin-bottom: 2%;
+}
+
+.problem .list li:nth-child(2n) {
+  background-color: #84C1FF;
+}
+
+.problem .list li:nth-child(5) {
+  float: right;
+  margin-right: 0;
+  background-color: #fff;
+}
+
+.problem .list li:nth-child(5) a {
+  width: 100%;
+  height: 45%;
+  margin-bottom: 10%;
+  background-color: #8E8E8E;
+}
+
+.problem .list li:nth-child(5) a:last-child {
+  margin-bottom: 0;
+}
+
+.problem .list li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 15% 0;
+  box-sizing: border-box;
+}
+
+.problem .list li span {
+  display: block;
+  width: 35%;
+  height: 80px;
+  margin: 0 auto;
+  background: url(../images/customized/problem_01.png)no-repeat center /100% 100%;
+}
+
+.problem .list li:nth-child(5) a {
+  padding: 5% 0;
+}
+
+.problem .list li:nth-child(5) a span {
+  width: 30%;
+  height: 30px;
+}
+
+.problem .list li:nth-child(5) a span:first-child {
+  background: url(../images/customized/problem_05.png)no-repeat center /100% 100%;
+}
+
+.problem .list li:nth-child(5) a h3 {
+  margin-top: 5%;
+}
+
+.problem .list li:nth-child(2) span {
+  background: url(../images/customized/problem_02.png)no-repeat center /100% 100%;
+}
+
+.problem .list li:nth-child(3) span {
+  background: url(../images/customized/problem_03.png)no-repeat center /100% 100%;
+}
+
+.problem .list li:nth-child(4) span {
+  background: url(../images/customized/problem_04.png)no-repeat center /100% 100%;
+}
+
+
+.problem .list li:nth-child(6) span {
+  background: url(../images/customized/problem_06.png)no-repeat center /100% 100%;
+}
+
+.problem .list li:nth-child(7) span {
+  background: url(../images/customized/problem_07.png)no-repeat center /100% 100%;
+}
+
+.problem .list li:nth-child(8) span {
+  background: url(../images/customized/problem_08.png)no-repeat center /100% 100%;
+}
+
+.problem .list li:last-child span {
+  background: url(../images/customized/problem_09.png)no-repeat center /100% 100%;
+}
+
+
+.problem .list li a h3 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 26px;
+  margin-top: 11%;
+}
+
+.problem .list li:last-child {
+  width: 38.5%;
+  margin-right: 0;
+  float: right;
+}
+
+.problem .list li:last-child a {
+  padding: 7% 0;
+}
+
+.problem .list li:last-child a span {
+  width: 18%;
+}
+
+.problem .list li:last-child a h3 {
+  margin-top: 5%;
+}
+
+.problem .list li a:hover {
+  background-color: #ff8800;
+}
+
+.problem .list li a:hover span {
+  animation: rotate 1s linear;
+  -webkit-animation: rotate 1s linear;
+}
+
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotateY(180deg);
+  }
+
+  to {
+    -webkit-transform: rotateY(0deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotateY(180deg);
+  }
+
+  to {
+    -webkit-transform: rotateY(0deg);
+  }
+}
+
+/* 在线自助预约 */
+.register {
+  margin-bottom: 2%;
+
+}
+
+.form_list {
+  border: 1px solid #E0E0E0;
+  box-shadow: 0px 0px 15px 5px #E0E0E0;
+  overflow: hidden;
+  padding-bottom: 2%;
+  box-sizing: border-box;
+}
+
+.form_list .form_fl {
+  width: 48%;
+}
+
+.form_list .form_fl h3 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #ff8800;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin: 5% 0;
+}
+
+.form_list .form_fl .biaodan {
+  width: 100%;
+  padding-left: 10%;
+  box-sizing: border-box;
+}
+
+.form_list .form_fl .biaodan .biaodan_list {
+  margin-bottom: 5%;
+  overflow: hidden;
+}
+
+
+.form_list .form_fl .biaodan span {
+  display: inline-block;
+  font-size: 30px;
+  color: #ff0000;
+  vertical-align: middle;
+  margin-right: 2%;
+}
+
+.form_list .form_fl .biaodan b {
+  font-size: 22px;
+  color: #333;
+}
+
+.form_list .form_fl .biaodan input {
+  width: 60%;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid #a0a0a0;
+  font-size: 22px;
+  line-height: 50px;
+  padding-left: 22px;
+  outline: none;
+}
+
+label {
+  margin-left: 13%;
+}
+
+.a-radio {
+  display: none;
+}
+
+.b-radio {
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-right: 5px;
+  position: relative;
+}
+
+.b-radio:before {
+  content: '';
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background: rgb(143, 188, 238);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+  border-radius: 2px;
+  display: none;
+}
+
+.a-radio:checked~.b-radio:before {
+  display: block;
+}
+
+.biaodan_list>textarea {
+  width: 60%;
+  border-radius: 12px;
+  border: 1px solid #a0a0a0;
+  font-size: 26px;
+  line-height: 50px;
+  padding-left: 22px;
+  outline: none;
+  margin-left: 1%;
+}
+
+.biaodan_list:nth-child(5) b {
+  display: block;
+  margin-top: 0;
+  margin-left: 4.5%;
+}
+
+
+.form_btn {
+  width: 45%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #CE0000;
+  border-radius: 20px;
+}
+
+.form_btn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 22px;
+  line-height: 50px;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+
+.form_btn a span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../images/customized/click.png)no-repeat center/ 100% 100%;
+  vertical-align: middle;
+  margin-right: 5%;
+}
+
+.btn_animate {
+  -webkit-animation-name: "mymove";
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+  transform: translateX(0px);
+}
+
+@keyframes mymove {
+  0% {
+    -webkit-transform: translateX(-27px);
+    -moz-transform: translateX(-27px);
+    -ms-transform: translateX(-27px);
+    -o-transform: translateX(-27px);
+    transform: translateX(-27px);
+  }
+
+  100% {
+    -webkit-transform: translateX(27px);
+    -moz-transform: translateX(27px);
+    -ms-transform: translateX(27px);
+    -o-transform: translateX(27px);
+    transform: translateX(27px);
+  }
+}
+
+
+.list_fr {
+  width: 48%;
+  margin-top: 1%;
+  margin-right: 1%;
+}
+
+.list_fr .tu {
+  width: 100%;
+}
+
+.list_fr .tu img {
+  display: block;
+  width: 100%;
+}
+
+.bito {
+  background: url(../images/customized/list_fr_01.png) no-repeat center;
+  width: 100%;
+  height: 41px;
+  line-height: 41px;
+  font-size: 22px;
+  font-family: "宋体";
+  color: #616161;
+  font-weight: 600;
+  letter-spacing: 15px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.list_fr p:nth-child(3) {
+  line-height: 70px;
+  font-size: 30px;
+  color: #ea5514;
+  font-weight: 600;
+  margin-top: 3%;
+}
+
+.list_fr p:nth-child(4) {
+  line-height: 25px;
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+}
+
+.list_fr .con {
+  line-height: 25px;
+  font-size: 16px;
+  color: #333;
+  padding: 5% 2%;
+  box-sizing: border-box;
+  height: 75px;
+  text-align: left;
+  text-indent: 2em;
+}

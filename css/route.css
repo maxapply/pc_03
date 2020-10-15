@@ -1,0 +1,745 @@
+/* 地图 */
+.map {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin-top: 136px
+}
+
+
+
+.map #container {
+  height: 100%;
+  width: 100%;
+}
+
+
+.map_mask {
+  width: 20%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  right: 20%;
+  z-index: 4;
+  background-color: rgba(0, 0, 0, .8);
+  overflow-y: auto;
+}
+
+/*滚动条样式*/
+.innerbox::-webkit-scrollbar {
+  width: 2%;
+}
+
+.innerbox::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px #8F4586;
+  background: #8F4586;
+}
+
+.innerbox::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.1);
+
+}
+
+.map_mask ul {
+  width: 100%;
+}
+
+.map_mask ul li {
+  width: 100%;
+  padding: 5% 2%;
+  box-sizing: border-box;
+  border-bottom: 2px solid #fff
+}
+
+
+
+.map_mask ul li h1 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 30px;
+}
+
+.map_mask ul li .selected {
+  color: #9F4D95;
+}
+
+.map_mask ul li h1 span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url(../images/route/hospital.png)no-repeat center / 100% 100%;
+  vertical-align: middle;
+  margin-right: 2%;
+}
+
+.map_mask ul li p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 26px;
+  margin: 2% 0 0 10%;
+}
+
+.hospital {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.hospital .hos_img {
+  width: 40%;
+  background-color: #fff;
+}
+
+.hospital .hos_img .hos_box {
+  width: 60%;
+  padding: 2% 0;
+  box-sizing: border-box;
+}
+
+.hospital .hos_img .hos_box img {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.hospital .hos_img .code {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hospital .hos_img .code h2 {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 2% 0;
+}
+
+.hospital .hos_img .code .code_list {
+  display: flex;
+}
+
+.hospital .hos_img .code .code_list .code_list_img {
+  flex: 1;
+  padding: 2% 5%;
+}
+
+.hospital .hos_img .code .code_list .code_list_img img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.hospital .hos_img .code .code_list .code_list_img h3 {
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+.hospital .hos_text {
+  width: 60%;
+  background-color: #C07AB8;
+}
+
+.hospital .hos_text .hos_list {
+  width: 70%;
+}
+
+.hospital .hos_text .hos_list .list {
+  width: 100%;
+  margin: 5.7% 0;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+
+
+.hospital .hos_text .hos_list .list h1 {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 1%;
+  color: #fff;
+}
+
+.hospital .hos_text .hos_list .list h1 span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.hospital .hos_text .hos_list .list h1 span img {
+  display: block;
+  width: 100%;
+}
+
+.hospital .hos_text .hos_list .list p {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 1%;
+  color: #fff;
+}
+
+
+/* 优贝常见牙齿问题 */
+.CdDental {
+  height: 96px;
+  margin: 2% auto;
+  background: #fff;
+  overflow: hidden;
+}
+
+.CdDental .picimg {
+  position: relative;
+  font-size: 16px;
+}
+
+.CdDental .picimg a {
+  display: inline-block;
+  color: #FFF;
+  text-align: center;
+}
+
+.ban1 {
+  width: 14.2%;
+}
+
+.ban1 img {
+  width: 100%;
+  height: 96px;
+}
+
+.ban2 {
+  position: absolute;
+  top: 0;
+  left: 14.5%;
+  background: #ef5b5b;
+  width: 9.3%;
+  height: 58px;
+  line-height: 58px;
+  font-size: 20px;
+}
+
+.ban2:hover {
+  background: #942b2b;
+}
+
+.ban3 {
+  position: absolute;
+  top: 60px;
+  left: 14.5%;
+  background: #EA69A2;
+  width: 9.3%;
+  height: 35px;
+  line-height: 35px;
+}
+
+.ban3:hover {
+  background: #944166;
+}
+
+.ban4 {
+  position: absolute;
+  top: 0;
+  left: 24%;
+  background: #0194C0;
+  width: 8%;
+  height: 43px;
+  line-height: 43px;
+}
+
+.ban4:hover {
+  background: #026e8c;
+}
+
+.ban5 {
+  position: absolute;
+  top: 45px;
+  left: 24%;
+  background: #ffa800;
+  width: 8%;
+  height: 51px;
+  line-height: 51px;
+}
+
+.ban5:hover {
+  background: #d58d03;
+}
+
+.ban6 {
+  position: absolute;
+  top: 0;
+  left: 32.3%;
+  background: #7883cd;
+  width: 9.5%;
+  height: 26px;
+  line-height: 26px;
+}
+
+.ban6:hover {
+  background: #4f578c;
+}
+
+.ban7 {
+  position: absolute;
+  top: 28px;
+  width: 9.5%;
+  background: #F05C5C;
+  left: 32.3%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 22px;
+}
+
+.ban7:hover {
+  background: #944166;
+}
+
+
+.ban8 {
+  position: absolute;
+  top: 70px;
+  left: 32.3%;
+  background: #7A82CD;
+  width: 9.5%;
+  height: 26px;
+  line-height: 26px;
+}
+
+.ban8:hover {
+  background: #4f578c;
+}
+
+
+.ban9 {
+  position: absolute;
+  top: 0;
+  left: 42%;
+  background: #0194BF;
+  width: 5.5%;
+  height: 60px;
+  line-height: 60px;
+}
+
+.ban9:hover {
+  background: #026e8c;
+}
+
+
+.ban10 {
+  position: absolute;
+  top: 62px;
+  left: 42%;
+  background: #EA69A2;
+  width: 5.5%;
+  height: 34px;
+  line-height: 34px;
+}
+
+.ban10:hover {
+  background: #944166;
+}
+
+.ban11 {
+  position: absolute;
+  top: 0;
+  right: 33.6%;
+  background: #EF5B5B;
+  width: 18.7%;
+  height: 31px;
+  line-height: 31px;
+}
+
+.ban11:hover {
+  background: #942b2b;
+}
+
+.ban12 {
+  position: absolute;
+  top: 33px;
+  right: 45.8%;
+  background: #FF9801;
+  width: 6.5%;
+  height: 63px;
+  line-height: 63px;
+}
+
+.ban12:hover {
+  background: #d58d03;
+}
+
+.ban13 {
+  position: absolute;
+  top: 33px;
+  right: 33.6%;
+  background: #0194C0;
+  width: 12%;
+  height: 63px;
+  line-height: 63px;
+  font-size: 20px;
+}
+
+.ban13:hover {
+  background: #026e8c;
+}
+
+.ban14 {
+  position: absolute;
+  top: 0;
+  right: 23.4%;
+  background: #7A82CD;
+  width: 10%;
+  height: 47px;
+  line-height: 47px;
+}
+
+.ban14:hover {
+  background: #4f578c;
+}
+
+.ban15 {
+  position: absolute;
+  top: 49px;
+  right: 23.4%;
+  background: #e5ac23;
+  width: 10%;
+  height: 47px;
+  line-height: 47px;
+  font-size: 18px;
+}
+
+.ban15:hover {
+  background: #bc8e1e;
+}
+
+.ban16 {
+  position: absolute;
+  top: 0;
+  right: 15.2%;
+  background: #EA69A2;
+  width: 8%;
+  height: 96px;
+  line-height: 96px;
+  font-size: 18px;
+}
+
+.ban16:hover {
+  background: #944166;
+}
+
+.ban17 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #44b835;
+  width: 15%;
+  height: 76px;
+  padding: 20px 0 0;
+  font-size: 18px;
+}
+
+.ban17:hover {
+  background: #fe9f02;
+}
+
+
+.ban17 img {
+  display: block;
+  margin: 3% auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 在线自助预约 */
+.inIit {
+  padding: 2% 0;
+}
+
+.inIit span {
+  color: #ddd;
+  font-size: 87px;
+  display: inline-block;
+}
+
+.inIit p {
+  display: inline-block;
+  padding-left: 5px;
+  font-size: 24px;
+  color: #787878;
+  text-align: left;
+}
+
+.inIit p b {
+  font-size: 36px;
+  color: #c2996d;
+  display: block;
+}
+
+.register {
+  margin-bottom: 2%;
+
+}
+
+.form_list {
+  border: 1px solid #E0E0E0;
+  box-shadow: 0px 0px 15px 5px #E0E0E0;
+  overflow: hidden;
+  padding-bottom: 2%;
+  box-sizing: border-box;
+}
+
+.form_list .form_fl {
+  width: 48%;
+}
+
+.form_list .form_fl h3 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #ff8800;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin: 5% 0;
+}
+
+.form_list .form_fl .biaodan {
+  width: 100%;
+  padding-left: 10%;
+  box-sizing: border-box;
+}
+
+.form_list .form_fl .biaodan .biaodan_list {
+  margin-bottom: 5%;
+  overflow: hidden;
+}
+
+
+.form_list .form_fl .biaodan span {
+  display: inline-block;
+  font-size: 30px;
+  color: #ff0000;
+  vertical-align: middle;
+  margin-right: 2%;
+}
+
+.form_list .form_fl .biaodan b {
+  font-size: 22px;
+  color: #333;
+}
+
+.form_list .form_fl .biaodan input {
+  width: 60%;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid #a0a0a0;
+  font-size: 22px;
+  line-height: 50px;
+  padding-left: 22px;
+  outline: none;
+}
+
+label {
+  margin-left: 13%;
+}
+
+.a-radio {
+  display: none;
+}
+
+.b-radio {
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-right: 5px;
+  position: relative;
+}
+
+.b-radio:before {
+  content: '';
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background: rgb(143, 188, 238);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+  border-radius: 2px;
+  display: none;
+}
+
+.a-radio:checked~.b-radio:before {
+  display: block;
+}
+
+.biaodan_list>textarea {
+  width: 60%;
+  border-radius: 12px;
+  border: 1px solid #a0a0a0;
+  font-size: 26px;
+  line-height: 50px;
+  padding-left: 22px;
+  outline: none;
+  margin-left: 1%;
+}
+
+.biaodan_list:nth-child(5) b {
+  display: block;
+  margin-top: 0;
+  margin-left: 4.5%;
+}
+
+
+.form_btn {
+  width: 45%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #CE0000;
+  border-radius: 20px;
+}
+
+.form_btn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 22px;
+  line-height: 50px;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+
+.form_btn a span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../images/customized/click.png)no-repeat center/ 100% 100%;
+  vertical-align: middle;
+  margin-right: 5%;
+}
+
+.btn_animate {
+  -webkit-animation-name: "mymove";
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+  transform: translateX(0px);
+}
+
+@keyframes mymove {
+  0% {
+    -webkit-transform: translateX(-27px);
+    -moz-transform: translateX(-27px);
+    -ms-transform: translateX(-27px);
+    -o-transform: translateX(-27px);
+    transform: translateX(-27px);
+  }
+
+  100% {
+    -webkit-transform: translateX(27px);
+    -moz-transform: translateX(27px);
+    -ms-transform: translateX(27px);
+    -o-transform: translateX(27px);
+    transform: translateX(27px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list_fr {
+  width: 48%;
+  margin-top: 1%;
+  margin-right: 1%;
+}
+
+.list_fr .tu {
+  width: 100%;
+}
+
+.list_fr .tu img {
+  display: block;
+  width: 100%;
+}
+
+.bito {
+  background: url(../images/customized/list_fr_01.png) no-repeat center;
+  width: 100%;
+  height: 41px;
+  line-height: 41px;
+  font-size: 22px;
+  font-family: "宋体";
+  color: #616161;
+  font-weight: 600;
+  letter-spacing: 15px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.list_fr p:nth-child(3) {
+  line-height: 70px;
+  font-size: 30px;
+  color: #ea5514;
+  font-weight: 600;
+  margin-top: 3%;
+}
+
+.list_fr p:nth-child(4) {
+  line-height: 25px;
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+}
+
+.list_fr .con {
+  line-height: 25px;
+  font-size: 16px;
+  color: #333;
+  padding: 5% 2%;
+  box-sizing: border-box;
+  height: 75px;
+  text-align: left;
+  text-indent: 2em;
+}
